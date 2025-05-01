@@ -7,8 +7,7 @@ export const DATA = {
   url: "https://jomon.vercel.app",
   location: "India",
   locationLink: "https://www.google.com/maps/place/India",
-  description:
-    "Aspiring Software Development Engineer.",
+  description: "Aspiring Software Development Engineer.",
   summary: "Pursuing my degree at [JCT College of Engineering and Technology](https://www.jct.ac.in/), I aspire to be a Software Development Engineer. I want to get placed in a company where I can put my skills to good use and also gain more. I consistently hone my problem-solving abilities by practicing DSA problems on [LeetCode](https://leetcode.com/u/jomonjoy/) and [GeeksforGeeks](https://www.geeksforgeeks.org/user/jomonjoy/). My passion for development drives me to work on diverse MERN stack projects, deepening my expertise and enabling me to build scalable, efficient applications. For more details, please check out my [resume](https://1drv.ms/f/s!ArXfHHJRn2FXcf-jYoODQGRTs9Q).",
   avatarUrl: "/avatar.png",
   skills: [
@@ -39,21 +38,24 @@ export const DATA = {
         name: "LinkedIn",
         url: "https://www.linkedin.com/in/itsjomon/",
         icon: Icons.linkedin,
-
         navbar: true,
+      },
+      Email: {
+        name: "Email",
+        url: "mailto:email@example.com",
+        icon: Icons.email,
+        navbar: false,
       },
       GitHub: {
         name: "GitHub",
         url: "https://github.com/itsjomon",
         icon: Icons.github,
-
         navbar: true,
       },
       LeetCode: {
         name: "LeetCode",
         url: "https://leetcode.com/u/jomonjoy/",
         icon: Icons.leetcode,
-
         navbar: true,
       },
       GeeksforGeeks: {
@@ -139,7 +141,7 @@ export const DATA = {
       video: "/project/bio-generator.mp4",
     },
     {
-      title: "Weather Appr",
+      title: "Weather App",
       href: "https://weather-app-jomon.vercel.app/",
       active: true,
       description: "A simple weather app built with HTML, CSS, and JavaScript that provides real-time weather updates. Leveraging the [OpenWeatherMap API](https://openweathermap.org/api), it offers location-based weather tracking and city search functionality. Designed for responsiveness and ease of use, it delivers accurate weather data in a user-friendly interface.",

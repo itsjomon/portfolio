@@ -166,10 +166,10 @@ export default function Page() {
                   Certifications
                 </div>
                 <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                  Recognized Credentials
+                  I enjoy learning new skills
                 </h2>
                 <p className="text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                  During my time in university, I earned {" "} {DATA.certificates.length}+ certifications across various domains. These certifications have strengthened my knowledge and skills, allowing me to explore new technologies and stay up to date with industry trends.
+                  Earned {" "} {DATA.certificates.length}+ certifications across diverse domains during university, enhancing my technical skills and keeping me current with industry trends and emerging technologies.
                 </p>
               </div>
             </div>
@@ -205,15 +205,14 @@ export default function Page() {
                 Get in Touch
               </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Want to chat? Just shoot me a dm{" "}
+                Want to chat? Feel free to drop me a message on {" "}
                 <Link
                   href={DATA.contact.social.LinkedIn.url}
                   className="text-blue-500 hover:underline"
                 >
-                  with a direct question on LinkedIn
+                  LinkedIn
                 </Link>{" "}
-                and I&apos;ll respond whenever I can. I will ignore all
-                soliciting.
+                and I&apos;ll get back to you as soon as I can.
               </p>
             </div>
           </BlurFade>
