@@ -1,24 +1,57 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Portfolio
+A sleek, modern, and fully responsive portfolio built with Next.js,
+designed using the elegant components of [shadcn/ui](https://ui.shadcn.com/) and [magic ui](https://magicui.design/) for a refined user experience.
+Deployed seamlessly on [vercel](https://vercel.com/) for fast performance and effortless scalability.
+
+This project is a [Next.js](https://nextjs.org) app bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app), providing a solid foundation for future updates and enhancements.
+
+<img src ="https://github.com/user-attachments/assets/bc765b4b-c999-454d-a552-8e9213503548" width="500">
+
+***The deployed version is avilable [here.](https://jomon.vercel.app/)***
+
+## Features
+
+- Built using Next.js 14, React, Typescript, Shadcn/UI, TailwindCSS, Framer Motion, Magic UI
+- Includes a blog
+- Responsive for different devices
+- Optimized for Next.js and Vercel
 
 ## Getting Started
 
-First, run the development server:
+1. Clone this repository to your local machine:
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+   ```bash
+   git clone https://github.com/itsjomon/portfolio
+   ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+2. Move to the cloned directory
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+   ```bash
+   cd portfolio
+   ```
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+3. Install dependencies:
+
+   ```bash
+   pnpm install
+   ```
+
+4. Start the local Server:
+   ```bash
+   npm run dev
+   # or
+   yarn dev
+   # or
+   pnpm dev
+   # or
+   bun dev
+   ```
+   
+5. Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+
+
+> [!NOTE]
+> Open the [Config file](./src/data/resume.tsx) and make changes
 
 ## Learn More
 
@@ -34,3 +67,6 @@ You can check out [the Next.js GitHub repository](https://github.com/vercel/next
 The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+
+## 🌟 Don’t Forget to Star!
+If you find this project useful, please consider giving it a star ⭐. It helps others discover it too!
