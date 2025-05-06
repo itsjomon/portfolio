@@ -4,11 +4,11 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 export const DATA = {
   name: "Jomon Joy",
   initials: "JO",
-  url: "https://jomon.vercel.app",
+  url: "https://itsjomon.vercel.app",
   location: "India",
   locationLink: "https://www.google.com/maps/place/India",
   description: "Aspiring Software Development Engineer.",
-  summary: "Pursuing my degree at [JCT College of Engineering and Technology](https://www.jct.ac.in/), I aspire to be a Software Development Engineer. I want to get placed in a company where I can put my skills to good use and also gain more. I consistently hone my problem-solving abilities by practicing DSA problems on [LeetCode](https://leetcode.com/u/jomonjoy/) and [GeeksforGeeks](https://www.geeksforgeeks.org/user/jomonjoy/). My passion for development drives me to work on diverse MERN stack projects, deepening my expertise and enabling me to build scalable, efficient applications. For more details, please check out my [resume](https://1drv.ms/f/s!ArXfHHJRn2FXcf-jYoODQGRTs9Q).",
+  summary: "Pursuing my degree at [JCT College of Engineering and Technology](https://www.jct.ac.in/), I aspire to be a Software Development Engineer. I want to get placed in a company where I can put my skills to good use and also gain more. I consistently hone my problem-solving abilities by practicing DSA problems on [LeetCode](https://leetcode.com/u/itsjomon/) and [GeeksforGeeks](https://www.geeksforgeeks.org/user/itsjomon/). My passion for development drives me to work on diverse MERN stack projects, deepening my expertise and enabling me to build scalable, efficient applications. For more details, please check out my [resume](https://1drv.ms/f/s!ArXfHHJRn2FXcf-jYoODQGRTs9Q).",
   avatarUrl: "/avatar.png",
   skills: [
     "Java",
@@ -54,13 +54,13 @@ export const DATA = {
       },
       LeetCode: {
         name: "LeetCode",
-        url: "https://leetcode.com/u/jomonjoy/",
+        url: "https://leetcode.com/u/itsjomon/",
         icon: Icons.leetcode,
         navbar: true,
       },
       GeeksforGeeks: {
         name: "GeeksforGeeks",
-        url: "https://www.geeksforgeeks.org/user/jomonjoy/",
+        url: "https://www.geeksforgeeks.org/user/itsjomon/",
         icon: Icons.geeksforgeeks,
         navbar: true,
       },
