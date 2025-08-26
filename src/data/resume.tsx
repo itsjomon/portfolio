@@ -3,29 +3,43 @@ import { HomeIcon, NotebookIcon } from "lucide-react";
 
 export const DATA = {
   name: "Jomon Joy",
-  initials: "JO",
+  initials: "itsjomon",
   url: "https://itsjomon.vercel.app",
   location: "India",
   locationLink: "https://www.google.com/maps/place/India",
   description: "Aspiring Software Development Engineer.",
-  summary: "Pursuing my degree at [JCT College of Engineering and Technology](https://www.jct.ac.in/), I aspire to be a Software Development Engineer. I want to get placed in a company where I can put my skills to good use and also gain more. I consistently hone my problem-solving abilities by practicing DSA problems on [LeetCode](https://leetcode.com/u/itsjomon/) and [GeeksforGeeks](https://www.geeksforgeeks.org/user/itsjomon/). My passion for development drives me to work on diverse MERN stack projects, deepening my expertise and enabling me to build scalable, efficient applications. For more details, please check out my [resume](https://1drv.ms/f/s!ArXfHHJRn2FXcf-jYoODQGRTs9Q).",
+  summary: "I pursued my degree in Computer Science and Engineering at [JCT College of Engineering and Technology](https://www.jct.ac.in/), I aspire to become a Software Development Engineer, where I can apply my skills effectively while continuously learning and growing. To sharpen my problem-solving abilities, I actively practice DSA problems on [LeetCode](https://leetcode.com/u/itsjomon/) and [GeeksforGeeks](https://www.geeksforgeeks.org/user/itsjomon/). My passion for development drives me to work on diverse MERN stack projects, strengthening my expertise and enabling me to build scalable, efficient applications. \n\n A copy of my resume is available [here](https://1drv.ms/f/s!ArXfHHJRn2FXcf-jYoODQGRTs9Q).",
   avatarUrl: "/avatar.png",
-  skills: [
-    "Java",
-    "HTML",
-    "CSS",
-    "JavaScript",
-    "React JS",
-    "Node JS",
-    "Express JS",
-    "Tailwind CSS",
-    "Bootstrap",
-    "MySQL",
-    "MongoDB",
-    "Git",
-    "GitHub",
-    "Vercel",
-    "Firebase",
+ skills: [
+  // Programming
+  "Java",
+  "Data Structures & Algorithms",
+
+  // Frontend
+  "HTML",
+  "CSS",
+  "JavaScript",
+  "React JS",
+  "Redux/Toolkit",
+  "Tailwind CSS",
+  "Bootstrap",
+  "Material UI",
+
+  // Backend
+  "Node JS",
+  "Express JS",
+  "REST API",
+
+  // Databases
+  "MySQL",
+  "MongoDB",
+
+  // Tools & DevOps
+  "Git",
+  "GitHub",
+  "Docker",
+  "Kubernetes",
+  "CI/CD"
   ],
 
   navbar: [
@@ -40,12 +54,12 @@ export const DATA = {
         icon: Icons.linkedin,
         navbar: true,
       },
-      Email: {
-        name: "Email",
-        url: "mailto:email@example.com",
-        icon: Icons.email,
-        navbar: false,
-      },
+      // Email: {
+      //   name: "Email",
+      //   url: "mailto:email@example.com",
+      //   icon: Icons.email,
+      //   navbar: false,
+      // },
       GitHub: {
         name: "GitHub",
         url: "https://github.com/itsjomon",
@@ -83,7 +97,7 @@ export const DATA = {
 
   education: [
     {
-      school: "JCT College of Engineering and Technology",
+      school: "JCT CET",
       href: "https://www.jct.ac.in/",
       degree: "Bachelor of Engineering in Computer Science & Engineering",
       logoUrl: "/education/ug.jpg",
@@ -91,7 +105,7 @@ export const DATA = {
       end: "2025",
     },
     {
-      school: "St. Thomas HSS Mayannur",
+      school: "St. Thomas HSS",
       href: "https://g.co/kgs/fSDrbGH",
       degree: "Higher Secondary | 12th, Computer Science",
       logoUrl: "/education/12th.jpg",
@@ -99,7 +113,7 @@ export const DATA = {
       end: "2021",
     },
     {
-      school: "St Joseph's High School Pangarappilly",
+      school: "St. Joseph's High school",
       href: "https://g.co/kgs/3JhwTem",
       degree: "Secondary Education | 10th",
       logoUrl: "/education/10th.jpg",
@@ -213,18 +227,18 @@ export const DATA = {
   ],
 
   certificates: [
-    {
-      title: "Udemy",
-      description: "Java Data Structures & Algorithms + LEETCODE Exercises.",
-      image: "/certificate/udemy.png",
-      links: [
-        {
-          title: "Java DSA",
-          icon: <Icons.file  className="h-4 w-4" />,
-          href: "",
-        },
-      ],
-    },
+    // {
+    //   title: "Udemy",
+    //   description: "Java Data Structures & Algorithms + LEETCODE Exercises.",
+    //   image: "/certificate/udemy.png",
+    //   links: [
+    //     {
+    //       title: "Java DSA",
+    //       icon: <Icons.file  className="h-4 w-4" />,
+    //       href: "",
+    //     },
+    //   ],
+    // },
     {
       title: "GeeksforGeeks",
       description: "GfG 160 - 160 Days of Problem Solving.",
@@ -233,7 +247,7 @@ export const DATA = {
         {
           title: "GFG 160",
           icon: <Icons.file className="h-4 w-4" />,
-          href: "",
+          href: "https://www.geeksforgeeks.org/certificate/b7f6d443c4e9cda7fcf69c2159fb115a?utm_source=socials&utm_medium=cc_link",
         },
       ],
     },
